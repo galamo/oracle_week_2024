@@ -1,0 +1,9 @@
+.plist {
+  overflow: auto;
+}
+
+.plist > div {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: gray;
+}
