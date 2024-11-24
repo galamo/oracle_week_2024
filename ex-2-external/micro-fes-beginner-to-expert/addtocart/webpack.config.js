@@ -63,5 +63,3 @@ module.exports = {
     }),
   ],
 };
-
-galamouyal88@gmail.com

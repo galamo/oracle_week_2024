@@ -5,11 +5,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>
-        <Helloworld text="test" />
+      <h1>HOST</h1>
+      <div>
+        <Helloworld text="Oracle Week" />
         <Products products={[]} />
         Ecommerece client is working??
-      </h1>
+      </div>
     </>
   );
 }

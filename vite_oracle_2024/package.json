@@ -1,0 +1,18 @@
+{
+  "name": "vite_oracle_2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "all": "concurrently -k -p \"[{name}]\" -n \"container,companies,employees\" -c \"blue,green,red\" \"npm run container\" \"npm run companies\" \"npm run employees\"  ",
+    "container": "cd container && npm run preview",
+    "companies": "cd companies-list && npm run preview",
+    "employees": "cd employees-list && npm run preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
